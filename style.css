@@ -183,21 +183,61 @@ nav ul li{
  }
 
  /* My current target */
- .current-target{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 200px auto 0;
-    width: 1026px;
-    height: 1300px;
- }
+  .current-target {
+    margin-top: 250px;
 
- .current-target .skill-container{
-    display: flex;
-
-    justify-content: space-evenly;
-    max-width: 1026px;
-    margin-top: 500px;
+  }
+ .current-target p{
+    text-align: center;
+    margin: 0 auto;
     
-
  }
+.skill-container{
+    display: flex;
+    width: 1026px;
+    height: 290px;
+    margin: 80px auto 0;
+    gap: 24px;
+ }
+.skill-1{
+    width: 327px;
+    height: 270px;
+    background-color: rgba(255, 76, 30, 0.05);
+    font-family: "Azeret Mono", monospace;
+}
+.skill-1 .description-paragraph{
+    width: 327px;
+    height: auto;
+    text-align: left;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding-bottom: 24px;
+}
+.skill-2{
+    width: 327px;
+    height: 270px;
+    background-color: rgba(0, 76, 232, 0.05);
+    font-family: "Azeret Mono", monospace;
+}
+.skill-2 .description-paragraph{
+    width: 327px;
+    height: auto;
+    text-align: left;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding-bottom: 24px;
+}
+.skill-3{
+    width: 327px;
+    height: 270px;
+    background-color: rgba(255, 223, 0, 0.05);
+    font-family: "Azeret Mono", monospace;
+}
+.skill-3 .description-paragraph{
+    width: 327px;
+    height: auto;
+    text-align: left;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding-bottom: 24px;
+}
