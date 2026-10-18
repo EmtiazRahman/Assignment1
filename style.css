@@ -251,6 +251,8 @@ nav ul li{
 .support-part .title-one{
 padding-top: 64px;
 color: #FFFFFF;
+font-size: 34px;
+font-weight: bold;
 }
 .support-part .description-paragraph{
     color: #FFFFFF;
@@ -260,14 +262,32 @@ color: #FFFFFF;
     font-family: "Azeret Mono", monospace;
     font-weight: 200;
 }
+.feedback-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+    ;
+}
 .feedback-area .feedback-btn {
-    margin: 0; 150px;
+    margin: 20px 10px;
     width: 495px;
-    height: 57px;
-    border-radius: 8px ;
+    height: 50px;
+    border-style: none;
+
+    border-radius : 8px; 
 }
 .feedback-area ::placeholder {
     font-size: 16px;
      font-family: "Azeret Mono", monospace;
      padding-left: 20px;
+}
+.feedback-area .submit-btn{
+    height: 50px;
+    width: 120px;
+    font-weight: 700;
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    border-radius : 8px; 
+     border-style: none;
 }
