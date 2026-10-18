@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 .work-sans-normal {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
@@ -293,8 +296,8 @@ font-weight: bold;
      cursor: pointer;
 }
 footer{
+    height: 100px;
     margin: 60px auto;
-    
     display: flex ;
     justify-content: space-between;
     
@@ -305,8 +308,10 @@ footer p{
     font-family: "Azeret Mono", monospace;
 }
 footer .icons{
+    margin-right: 120px;
     display: flex;
     height: 36px;
     width: 36px;
+    gap: 24px;
 
 }
