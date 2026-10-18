@@ -290,4 +290,23 @@ font-weight: bold;
     font-size: 20px;
     border-radius : 8px; 
      border-style: none;
+     cursor: pointer;
+}
+footer{
+    margin: 60px auto;
+    
+    display: flex ;
+    justify-content: space-between;
+    
+}
+footer p{
+    font-weight: 600;
+    color: black;
+    font-family: "Azeret Mono", monospace;
+}
+footer .icons{
+    display: flex;
+    height: 36px;
+    width: 36px;
+
 }
