@@ -241,3 +241,33 @@ nav ul li{
     letter-spacing: 1px;
     padding-bottom: 24px;
 }
+.support-part{
+    background-image: url(./B10A1-Challenge-Begins/assets/handshake.jpg);
+    width: 1026px;
+    height: 281px;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+.support-part .title-one{
+padding-top: 64px;
+color: #FFFFFF;
+}
+.support-part .description-paragraph{
+    color: #FFFFFF;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    font-family: "Azeret Mono", monospace;
+    font-weight: 200;
+}
+.feedback-area .feedback-btn {
+    margin: 0; 150px;
+    width: 495px;
+    height: 57px;
+    border-radius: 8px ;
+}
+.feedback-area ::placeholder {
+    font-size: 16px;
+     font-family: "Azeret Mono", monospace;
+     padding-left: 20px;
+}
